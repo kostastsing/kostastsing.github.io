@@ -171,8 +171,8 @@ main {
 }
 
 .project-info iframe {
-  max-width: 500px;
-  max-height: 325px;
+  width: 500px;
+  height: 325px;
 }
 
 .project-info-wrapper {
@@ -183,6 +183,7 @@ main {
 
 .project-info-wrapper div {
   width: 50%;
+  margin: auto;
 }
 
 .project-title {
