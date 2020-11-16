@@ -190,3 +190,19 @@ footer {
 #copyright {
   padding: 20px 0px;
 }
+
+.skills-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-item .chart {
+  width: 60%;
+  height: auto;
+}
+
+.skills-info {
+  width: 40%;
+}

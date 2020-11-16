@@ -9,6 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@1"></script>
+<script src="myscripts.js"></script>
 
 </head>
 <body>
@@ -87,15 +91,21 @@
       </div>
       <div id='skills' class='content'>
         <h2>Technical Skills</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod elementum nisi quis eleifend quam adipiscing vitae. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Molestie nunc non blandit massa enim. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Et leo duis ut diam. Neque laoreet suspendisse interdum consectetur. Aliquet nibh praesent tristique magna sit amet purus gravida. Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Eu volutpat odio facilisis mauris sit amet massa. Massa sed elementum tempus egestas sed sed risus pretium. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Pellentesque nec nam aliquam sem et. Consectetur lorem donec massa sapien. Ut morbi tincidunt augue interdum velit euismod in pellentesque. Faucibus pulvinar elementum integer enim. Non diam phasellus vestibulum lorem sed risus. Tellus integer feugiat scelerisque varius morbi.
-        </p>
+        <div class='skills-item'>
+          <div class='chart'>
+            <canvas id='radar-chart' width='inherit' height='inherit'></canvas>
+          </div>
+          <div class='skills-info'>
+            <p>This chart represents <a href='data/ktsinganos_workera.pdf' target='_blank'>my scores</a> on seven essential AI skills based on the <a href='https://workera.ai/' target='_blank'>Workera</a> assessment tests. These standardized tests, developed by a team of AI experts led by Dr. Andrew Ng and Kian Katanforoosh from <a href='https://www.deeplearning.ai/' target='_blank'>deeplearning.ai</a>, evaluate the ability to carry out tasks involved in AI projects including data engineering, modeling, deployment, business analysis and AI infrastructure. For more information about the tests you can check <a href='https://workera.ai/resources/guide-to-the-workera-test/?utm_source=test_homepage&utm_medium=test_guide_button&utm_campaign=test_guide_button' target='_blank'>here</a>.</p>
+          </div>
+        </div>
       </div>
       <div id='projects' class='content'>
         <h2>Projects</h2>
         <div id='registration' class='project-item'>
           <div class='project-title'>Registration of satellite images</div>
           <div class='project-info'>
-              <p>This project was my diploma thesis during my undergraduate studies in the <a href='http://www.ece.upatras.gr/index.php/en/' target='_blank'>Department of Electrical and Computer Enginnering</a> at University of Patras, Greece. It was supervised by Prof. Athanassios Skodras and carried out at <a href='http://dsip.ece.upatras.gr/' target='_blank'>Digital Signal and Image Processing Laboratory</a>. You can view a poster <a href='data/satelliteIR_poster.pdf' target='_blank'>here</a> and read the diploma thesis <a href='https://nemertes.lis.upatras.gr/jspui/bitstream/10889/12173/6/Nemertes_Tsigganos%28ele%29.pdf' target='_blank'>here</a> (in Greek).</p>
+              <p>This project was my diploma thesis during my undergraduate studies in the <a href='http://www.ece.upatras.gr/index.php/en/' target='_blank'>Department of Electrical and Computer Enginnering</a> at University of Patras, Greece. It was supervised by Prof. Athanassios Skodras and carried out at <a href='http://dsip.ece.upatras.gr/' target='_blank'>Digital Signal and Image Processing Laboratory</a>. You can view the poster of this diploma thesis <a href='data/satelliteIR_poster.pdf' target='_blank'>here</a>.</p>
               <p><b>Abstract</b></p>
               <iframe src="https://www.youtube.com/embed/NGR3u4EPpDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style='float:right;'></iframe>
               <p>Image registration is a process in which images that exhibit geometric deviations are mapped to each other in a common coordinate system. In the present work, the usefulness of the registration to satellite imaging is examined. For this purpose, a feature-based method was implemented to calculate the geometric transformation that aligns the images. The method was implemented with the OpenCV and FLANN libraries. In particular, the performance of SIFT and SURF detectors and brute-force and multiple randomized K-D trees matching methods were evaluated. Finally, two satellite imaging applications were implemented in which image registration is applied, change detection on the surface of Earth and image mosaicking for mapping a bigger area.</p>
