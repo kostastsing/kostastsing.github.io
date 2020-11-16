@@ -170,13 +170,15 @@ main {
   padding: 0px 20px 10px 20px;
 }
 
+/*
 .project-info iframe {
   margin-left: 20px;
   width: 400px;
   height: 225px;
 }
+*/
 
-.prpject-info-wrapper {
+.project-info-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
