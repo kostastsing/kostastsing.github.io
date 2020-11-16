@@ -171,16 +171,18 @@ main {
 }
 
 .project-info iframe {
-  margin-left: 20px;
-  max-width: 400px;
-  max-height: 225px;
+  max-width: 500px;
+  max-height: 325px;
 }
 
 .project-info-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+}
+
+.project-info-wrapper div {
+  width: 50%;
 }
 
 .project-title {
