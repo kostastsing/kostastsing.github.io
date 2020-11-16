@@ -176,6 +176,13 @@ main {
   height: 225px;
 }
 
+.prpject-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-title {
   font-size: 20px;
   font-weight: bold;
