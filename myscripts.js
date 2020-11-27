@@ -19,7 +19,7 @@ $(document).ready(function() {
     },
     options: {
       title: {
-        display: true,
+        display: false,
         text: 'workera.ai assessment of AI skills',
         fontSize: 16,
         fontFamily: "'Roboto', sans-serif",
@@ -47,13 +47,5 @@ $(document).ready(function() {
           fontFamily: "'Open Sans', sans-serif"
         }
       }
-      /*tooltips: {
-                enabled: true,
-                callbacks: {
-                    label: function(tooltipItem, data) {
-                        return data.datasets[tooltipItem.datasetIndex].label + ' : ' + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
-                    }
-                }
-            }*/
     }
 })});

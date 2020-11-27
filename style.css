@@ -88,12 +88,24 @@ main {
   color: #007bb5;
 }
 
+#social-links .fa-linkedin-square:hover {
+  color: #01acff;
+}
+
 #social-links .fa-github {
   color: #211f1f;
 }
 
+#social-links .fa-github:hover {
+  color: #615b5b;
+}
+
 #social-links .fa-skype {
   color: #00aff0;
+}
+
+#social-links .fa-skype:hover {
+  color: #07bbff;
 }
 
 #social-links a:hover {
@@ -130,6 +142,8 @@ main {
 .content {
   padding: 80px 40px 0px 40px;
   text-align: justify;
+  max-width: 900px;
+  margin: auto;
 }
 
 .content p {
@@ -156,7 +170,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -209,17 +223,21 @@ footer {
 }
 
 .skills-item {
+  padding-bottom: 10px;
+}
+
+.skills-item-content {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.skills-item .chart {
-  width: 60%;
+.skills-item-content .chart {
+  width: 58%;
   height: auto;
 }
 
-.skills-info {
-  width: 40%;
+#ai-skills .skills-info {
+  width: 42%;
 }
