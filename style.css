@@ -283,6 +283,10 @@ footer {
     padding-inline-start: 20px;
   }
 
+  .content {
+    padding: 80px 20px 0px 20px;
+  }
+
   #social-links .fa {
     font-size: 28px;
   }
