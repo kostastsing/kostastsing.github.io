@@ -146,11 +146,8 @@ main {
   margin: auto;
 }
 
-.content p {
+.content p, .content li {
   font-family: 'Open Sans', sans-serif;
-}
-
-.content h2 {
 }
 
 #content-area h2:after {
