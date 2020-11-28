@@ -146,7 +146,7 @@ main {
   margin: auto;
 }
 
-.content p, .content li {
+.content p, .content li, .education-item-info {
   font-family: 'Open Sans', sans-serif;
 }
 
