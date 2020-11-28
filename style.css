@@ -385,8 +385,12 @@ footer {
     font-size: 18px;
   }
 
-  footer, #content-area {
+  #content-area {
     padding-left: 0;
+  }
+
+  footer {
+    padding: 0px 20px;
   }
 
 }
