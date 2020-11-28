@@ -18,8 +18,16 @@
 <body>
 
   <header>
-    <ul id='top-menu'>
-      <li><a href='#about'>About Me</a>
+    <div id='mobile-wrapper'>
+      <div id='mobile-home'><a href=''>Konstantinos Tsinganos</a></div>
+      <div class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+  		    <div class="bar1"></div>
+  			  <div class="bar2"></div>
+  			  <div class="bar3"></div>
+		  </div>
+    </div>
+    <ul class='top-menu'>
+      <li><a href='#about'>About me</a>
       </li>
 
       <li><a href='#education'>Education</a>
@@ -41,7 +49,7 @@
       <img src='images/kostas_logo.jpeg' alt="Konstantinos Tsinganos logo">
       <div id='info'>
         <h3><a href=''>Konstantinos Tsinganos</a></h3>
-        <div id='status'>MSc student in Data-Driven Computing and Decision Making,<br>CEID @ University of Patras</div>
+        <div id='status'>MSc student in Data-Driven Computing and Decision Making<br>CEID @ University of Patras</div>
         <div id='contact'>
           <div><span class='fa fa-map-marker'></span> Patras, Greece</div>
           <div><span class='fa fa-envelope fw'></span><a href='mailto: kontsinganos@gmail.com'>kontsinganos@gmail.com</a></div>
@@ -54,7 +62,6 @@
       </div>
     </div>
     <div id='content-area'>
-      <div id='under-construction-note'><b>Note: </b>The site is under construction and not responsive yet!</div>
       <div id='about' class='content'>
         <h2>About me</h2>
         <p>I am student in <a href='https://ddcdm.ceid.upatras.gr/en/641-2/' target='_blank'>Data-Driven Computing and Decision Making</a> postgraduate program (MSc) in the <a href='https://www.ceid.upatras.gr/en' target='_blank'>Department of Computer Engineering and Informatics</a>, University of Patras, Greece. My research interests include Machine Learning, Explainable and Ethical AI, Algorithmic Game Theory and Digital Image Processing.</p>
@@ -142,7 +149,7 @@
                 <p>Image registration is a process in which images that exhibit geometric deviations are mapped to each other in a common coordinate system. In the present work, the usefulness of the registration to satellite imaging is examined. For this purpose, a feature-based method was implemented to calculate the geometric transformation that aligns the images. The method was implemented with the OpenCV and FLANN libraries. In particular, the performance of SIFT and SURF detectors and brute-force and multiple randomized K-D trees matching methods were evaluated. Finally, two satellite imaging applications were implemented in which image registration is applied, change detection on the surface of Earth and image mosaicking for mapping a bigger area.</p>
               </div>
               <div>
-                <iframe src="https://www.youtube.com/embed/NGR3u4EPpDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style='float:right;'></iframe>
+                <iframe src="https://www.youtube.com/embed/NGR3u4EPpDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </div>
         </div>
