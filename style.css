@@ -388,6 +388,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 18px;
+    padding-top: 0px;
   }
 
   #content-area {
