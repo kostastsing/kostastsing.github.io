@@ -56,7 +56,10 @@ main {
   display: block;
   text-align: center;
   box-shadow: 1px 0px 5px 0px #222;
+  -webkit-box-shadow: 1px 0px 5px 0px #222;
+  -moz-box-shadow: 1px 0px 5px 0px #222;
   color: #222831;
+  padding-top: 70px;
 }
 
 #sidebar-info img{
@@ -64,7 +67,7 @@ main {
   height: auto;
   border-radius: 50%;
   border: solid white 4px;
-  margin: 50px 0px 20px 0px;
+  margin-bottom: 20px;
 }
 
 #info a {
@@ -166,6 +169,8 @@ main {
 .project-item {
   border-radius: 0.5rem;
   box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.5);
   margin: 20px 0px;
 }
 
@@ -391,6 +396,26 @@ footer {
 
   footer {
     padding: 0px 20px;
+  }
+
+}
+
+@media only screen and (min-width: 1800px) {
+  #sidebar-info {
+    width: 300px;
+    padding-top: 100px;
+  }
+
+  #content-area, footer {
+    padding-left: 300px;
+  }
+
+  .content {
+    max-width: 1200px;
+  }
+
+  .skills-item-content .chart, #ai-skills .skills-info {
+    width: 50%;
   }
 
 }
