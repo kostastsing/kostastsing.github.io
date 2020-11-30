@@ -433,8 +433,8 @@ main {
     padding-right: 0px;
   }
 
-  #gallery{
-    max-width: 90vw;
+  #gallery figure{
+    width: 90vw;
   }
 
 }
