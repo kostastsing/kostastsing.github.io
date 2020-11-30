@@ -433,8 +433,12 @@ main {
     padding-right: 0px;
   }
 
-  #gallery figure{
+  #gallery .landscape{
     width: 90vw;
+  }
+
+  #gallery .portrait{
+    width: 80vw;
   }
 
 }
