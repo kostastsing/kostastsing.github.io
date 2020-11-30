@@ -247,16 +247,21 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-left: 250px;
+}
+
+#gallery figure {
+  margin-bottom: 20px;
 }
 
 .landscape img {
-  max-width: 700px;
+  max-width: 650px;
   width: 100%;
   height: auto;
 }
 
 .portrait img {
-  max-height: 500px;
+  max-height: 450px;
   width: auto;
 }
 
@@ -430,7 +435,7 @@ main {
     padding-top: 100px;
   }
 
-  #content-area, #footer {
+  #content-area, #footer, #gallery {
     padding-left: 300px;
   }
 
