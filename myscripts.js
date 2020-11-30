@@ -1,17 +1,3 @@
-const isMobile = window.matchMedia("only screen and (max-width: 850px)");
-isMobile.addListener(respondToMediaChange);
-respondToMediaChange(isMobile);
-
-function respondToMediaChange(isMobile){
-  if (!isMobile.matches){
-    if ($('.top-menu').hasClass('pressed')){
-      $('.top-menu').removeClass('pressed');
-      $('#header').css({"height": "80px"});
-      $('.menu-toggle').removeClass('change');
-    }
-  }
-}
-
 $(document).ready(function() {
   $("#header").load("header.html", function() {
     $("#header").append("<script type='text/javascript' src='header.js'></" + "script>");

@@ -1,3 +1,17 @@
+const isMobile = window.matchMedia("only screen and (max-width: 850px)");
+isMobile.addListener(respondToMediaChange);
+respondToMediaChange(isMobile);
+
+function respondToMediaChange(isMobile){
+  if (!isMobile.matches){
+    if ($('.top-menu').hasClass('pressed')){
+      $('.top-menu').removeClass('pressed');
+      $('#header').css({"height": "80px"});
+      $('.menu-toggle').removeClass('change');
+    }
+  }
+}
+
 $(document).ready(function() {
   $('.menu-toggle').click(function () {
     $('.top-menu').toggleClass('pressed');
