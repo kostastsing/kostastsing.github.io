@@ -1,4 +1,4 @@
-const isMobile = window.matchMedia("only screen and (max-width: 850px)");
+const isMobile = window.matchMedia("only screen and (max-width: 900px)");
 isMobile.addListener(respondToMediaChange);
 respondToMediaChange(isMobile);
 

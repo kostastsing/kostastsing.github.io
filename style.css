@@ -302,7 +302,7 @@ main {
 
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
 
   html, body {
 		width: 100vw;
