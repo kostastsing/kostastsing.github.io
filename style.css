@@ -8,7 +8,7 @@ body {
   color: #222831;
 }
 
-header {
+#header {
   overflow: hidden;
   background-color: #0d1624;
   position: fixed;
@@ -210,7 +210,7 @@ main {
   border-top-right-radius: inherit;
 }
 
-footer {
+#footer {
   background-color: #3f4855;
   padding-left: 250px;
   text-align: center;
@@ -283,7 +283,7 @@ footer {
 		width: 100vw;
 	}
 
-  header {
+  #header {
     display: flex;
     flex-direction: column;
   }
@@ -399,7 +399,7 @@ footer {
     padding-left: 0;
   }
 
-  footer {
+  #footer {
     padding: 0px 20px;
   }
 
@@ -411,7 +411,7 @@ footer {
     padding-top: 100px;
   }
 
-  #content-area, footer {
+  #content-area, #footer {
     padding-left: 300px;
   }
 

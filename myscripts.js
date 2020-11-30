@@ -6,7 +6,7 @@ function respondToMediaChange(isMobile){
   if (!isMobile.matches){
     if ($('.top-menu').hasClass('pressed')){
       $('.top-menu').removeClass('pressed');
-      $('header').css({"height": "80px"});
+      $('#header').css({"height": "80px"});
       $('.menu-toggle').removeClass('change');
     }
   }
@@ -69,11 +69,11 @@ $(document).ready(function() {
     $('.top-menu').toggleClass('pressed');
     if ($('.top-menu').hasClass('pressed')){
       $('.menu-toggle').toggleClass('change');
-      $("header").css({"height": "350px"});
+      $("#header").css({"height": "350px"});
     }
     else {
       $('.menu-toggle').toggleClass('change');
-      $("header").css({"height": "80px"});
+      $("#header").css({"height": "80px"});
     }
   });
 });
@@ -81,7 +81,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $(window).scroll(function () {
     if ($(window).scrollTop() > 80) {
-      $("header").css({"height": "80px"});
+      $("#header").css({"height": "80px"});
       $('.menu-toggle').removeClass('change');
       $('.top-menu').removeClass('pressed');
     }
