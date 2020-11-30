@@ -7,19 +7,15 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-  $('.scroll').on('click',function(e){
-    e.preventDefault();
-    $('html,body').animate({
-        scrollTop:$($(this).attr('href')).offset().top + 'px'
-    },1000,'swing');
-});
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
 
-// if we have anchor on the url (calling from other page)
-if(window.location.hash){
-  // smooth scroll to the anchor id
-  $('html,body').animate({
-    scrollTop:$(window.location.hash).offset().top + 'px'},1000,'swing');
-  }
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
 });
 
 $(document).ready(function() {
