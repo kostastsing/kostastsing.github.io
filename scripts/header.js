@@ -10,6 +10,10 @@ function respondToMediaChange(isMobile){
       $('.menu-toggle').removeClass('change');
     }
   }
+  var currPath = window.location.pathname;
+  if ((currPath == '/gallery.html') && (isMobile.matches)) {
+    $('#sidebar-info').css({"display": "none"});
+  }
 }
 
 $(document).ready(function() {
@@ -34,11 +38,4 @@ $(document).ready(function() {
       $('.top-menu').removeClass('pressed');
     }
   });
-});
-
-$(document).ready(function(){
-  var currPath = window.location.pathname;
-  if ((currPath == '/gallery.html') && (isMobile.matches)) {
-    $('#sidebar-info').css({"display": "none"});
-  }
 });
