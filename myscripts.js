@@ -13,9 +13,12 @@ function respondToMediaChange(isMobile){
 }
 
 $(document).ready(function() {
-  $("#header").load("header.html");
+  $("#header").load("header.html", function() {
+    $("#header").append("<script type='text/javascript' src='myscripts.js'></" + "script>"); 
+  });
   $("#sidebar-info").load("sidebar.html");
   $("#footer").load("footer.html");
+
 });
 
 $(document).ready(function() {
