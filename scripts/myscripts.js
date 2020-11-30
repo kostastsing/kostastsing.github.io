@@ -8,12 +8,11 @@ $(document).ready(function() {
 
 $(document).ready(function(){
     var currPath = window.location.pathname;
-    if(currPath == '/gallery.html') && isMobile {
+    if ((currPath == '/gallery.html') && (isMobile)) {
       $('#sidebar-info').css({"display": "none"});
     }else {
       $('#sidebar-info').css({"display": "flex"});
     }
-
 });
 
 $(document).ready(function() {
