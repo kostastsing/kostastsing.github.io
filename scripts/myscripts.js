@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  $("#header").load("pages/header.html", function() {
+  $("#header").load("theme/header.html", function() {
     $("#header").append("<script type='text/javascript' src='scripts/header.js'></" + "script>");
   });
-  $("#sidebar-info").load("pages/sidebar.html");
-  $("#footer").load("pages/footer.html");
+  $("#sidebar-info").load("theme/sidebar.html");
+  $("#footer").load("theme/footer.html");
 });
 
 $(document).ready(function() {
