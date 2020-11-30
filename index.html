@@ -17,7 +17,8 @@
 <script>
 $(function(){
   $("header").load("header.html");
-  //$("footer").load("footer.html"); 
+  $("#sidebar-info").load("sidebar.html");
+  $("footer").load("footer.html");
 });
 </script>
 
@@ -25,25 +26,12 @@ $(function(){
 <body>
 
   <header>
-
+    <!-- Load content from header.html -->
   </header>
 
   <main id='main'>
     <div id='sidebar-info'>
-      <img src='images/kostas_logo.jpeg' alt="Konstantinos Tsinganos logo">
-      <div id='info'>
-        <h3><a href=''>Konstantinos Tsinganos</a></h3>
-        <div id='status'>MSc student in Data-Driven Computing and Decision Making<br>CEID @ University of Patras</div>
-        <div id='contact'>
-          <div><span class='fa fa-map-marker'></span> Patras, Greece</div>
-          <div><span class='fa fa-envelope fw'></span><a href='mailto: kontsinganos@gmail.com'>kontsinganos@gmail.com</a></div>
-          <div id='social-links'>
-            <a href='https://join.skype.com/invite/bwvMpzUCKvIu' target='_blank' class="fa fa-skype"></a>
-            <a href='https://www.linkedin.com/in/konstantinos-tsinganos-087518ab' target='_blank' class="fa fa-linkedin-square"></a>
-            <a href='https://github.com/kostastsing' target='_blank' class="fa fa-github"></a>
-          </div>
-        </div>
-      </div>
+      <!-- Load content from sidebar.html -->
     </div>
     <div id='content-area'>
       <div id='about' class='content'>
@@ -142,11 +130,7 @@ $(function(){
   </main>
 
   <footer>
-    <div id='copyright'>
-      <span class='fa fa-copyright fa-fw'></span><span>Konstantinos Tsinganos 2020<br>
-        Designed by Konstantinos Tsinganos | Powered by GitHub Pages
-      </span>
-    </div>
+    <!-- Load content from footer.html -->
   </footer>
 
 </body>
