@@ -428,6 +428,15 @@ main {
     padding: 0px 20px;
   }
 
+  #gallery {
+    width: 100vw;
+    padding-right: 0px;
+  }
+
+  #gallery{
+    max-width: 90vw;
+  }
+
 }
 
 @media only screen and (min-width: 1800px) {
