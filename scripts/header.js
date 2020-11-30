@@ -11,8 +11,13 @@ function respondToMediaChange(isMobile){
     }
   }
   var currPath = window.location.pathname;
-  if ((currPath == '/gallery.html') && (isMobile.matches)) {
-    $('#sidebar-info').css({"display": "none"});
+  if (currPath == '/gallery.html') {
+    if (isMobile.matches){
+      $('#sidebar-info').css({"display": "none"});
+    }
+    else {
+      $('#sidebar-info').css({"display": "block"});
+    }
   }
 }
 
