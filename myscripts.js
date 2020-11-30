@@ -14,11 +14,10 @@ function respondToMediaChange(isMobile){
 
 $(document).ready(function() {
   $("#header").load("header.html", function() {
-    $("#header").append("<script type='text/javascript' src='header.js'></" + "script>"); 
+    $("#header").append("<script type='text/javascript' src='header.js'></" + "script>");
   });
   $("#sidebar-info").load("sidebar.html");
   $("#footer").load("footer.html");
-
 });
 
 $(document).ready(function() {
