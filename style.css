@@ -427,11 +427,6 @@ main {
     padding: 0px 20px;
   }
 
-  .portrait img {
-    width: 50vw;
-    height: auto;
-  }
-
 }
 
 @media only screen and (min-width: 1800px) {
