@@ -262,7 +262,7 @@ main {
 }
 
 .portrait img {
-  max-height: 450px;
+  height: 450px;
   width: auto;
 }
 
@@ -443,6 +443,7 @@ main {
 
   #gallery .portrait img{
     width: 70vw;
+    height: auto;
   }
 
 }
