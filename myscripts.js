@@ -13,6 +13,12 @@ function respondToMediaChange(isMobile){
 }
 
 $(document).ready(function() {
+  $("#header").load("header.html");
+  $("#sidebar-info").load("sidebar.html");
+  $("#footer").load("footer.html");
+});
+
+$(document).ready(function() {
   var ctx = document.getElementById('radar-chart');
   var myChart = new Chart(ctx, {
     type: 'radar',
