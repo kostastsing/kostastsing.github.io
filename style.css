@@ -433,12 +433,16 @@ main {
     padding-right: 0px;
   }
 
-  #gallery .landscape{
+  #gallery .landscape, #gallery .portrait{
+    width: inherit;
+  }
+
+  #gallery .landscape img{
     width: 90vw;
   }
 
-  #gallery .portrait{
-    width: 80vw;
+  #gallery .portrait img{
+    width: 70vw;
   }
 
 }
