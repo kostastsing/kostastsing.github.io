@@ -38,7 +38,7 @@ $(document).ready(function() {
 
 $(document).ready(function(){
   var currPath = window.location.pathname;
-  if ((currPath == '/gallery.html') && (isMobile)) {
+  if ((currPath == '/gallery.html') && (isMobile.matches)) {
     $('#sidebar-info').css({"display": "none"});
   }
 });
