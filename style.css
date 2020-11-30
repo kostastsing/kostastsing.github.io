@@ -368,7 +368,7 @@ main {
 
   .expanded {
 		max-height: 100vh;
-		height: 350px !important;
+		height: 400px !important;
 		overflow-y: scroll !important;
 	}
 

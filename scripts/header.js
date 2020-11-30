@@ -17,7 +17,7 @@ $(document).ready(function() {
     $('.top-menu').toggleClass('pressed');
     if ($('.top-menu').hasClass('pressed')){
       $('.menu-toggle').toggleClass('change');
-      $("#header").css({"height": "350px"});
+      $("#header").css({"height": "400px"});
     }
     else {
       $('.menu-toggle').toggleClass('change');
