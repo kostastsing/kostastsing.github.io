@@ -26,6 +26,17 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function(){
+  document.querySelectorAll('.scroll').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+});
+
 $(document).ready(function() {
   $(window).scroll(function () {
     if ($(window).scrollTop() > 80) {
