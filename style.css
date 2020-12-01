@@ -18,6 +18,7 @@ body {
   z-index: 2;
   box-shadow: 0 5px 6px -6px #222;
   transition: all 0.2s ease;
+  overflow: hidden;
 }
 
 .top-menu {
