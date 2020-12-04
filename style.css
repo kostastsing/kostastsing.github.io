@@ -447,6 +447,10 @@ main {
     height: auto;
   }
 
+  .education-item-header {
+    font-size: 16px;
+  }
+
 }
 
 @media only screen and (min-width: 1800px) {
