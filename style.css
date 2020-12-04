@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   color: #222831;
 }
@@ -144,7 +144,7 @@ main {
 }
 
 .content p, .content li, .education-item-info, figcaption {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #content-area h2:after {
