@@ -1,12 +1,12 @@
-$(document).ready(function() {
-  $("#header").load("theme/header.html", function() {
+$(document).ready(function () {
+  $("#header").load("theme/header.html", function () {
     $("#header").append("<script type='text/javascript' src='scripts/header.js'></" + "script>");
   });
   $("#sidebar-info").load("theme/sidebar.html");
   $("#footer").load("theme/footer.html");
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
   var ctx = document.getElementById('radar-chart');
   var myChart = new Chart(ctx, {
     type: 'radar',
@@ -44,11 +44,11 @@ $(document).ready(function() {
       },
       scale: {
         angleLines: {
-            display: false
+          display: false
         },
         ticks: {
-            suggestedMin: 50,
-            suggestedMax: 100
+          suggestedMin: 50,
+          suggestedMax: 100
         },
         pointLabels: {
           fontSize: 12,
@@ -56,4 +56,5 @@ $(document).ready(function() {
         }
       }
     }
-})});
+  })
+});
