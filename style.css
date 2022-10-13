@@ -267,6 +267,10 @@ main {
   width: auto;
 }
 
+#publications {
+  padding-bottom: 40px;
+}
+
 /* ----- Mobile menu ---- */
 
 .menu-toggle, #mobile-home {
